@@ -4,3 +4,12 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
